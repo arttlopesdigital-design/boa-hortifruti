@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boa Hortifruti | Frutas, Verduras e Legumes</title>
+<meta name="description" content="Boa Hortifruti — frutas, verduras e legumes com qualidade, frescor e confiança. Há quase 14 anos levando o melhor para você.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Boa Hortifruti | Frutas, Verduras e Legumes">
+<meta property="og:description" content="Boa Hortifruti — frutas, verduras e legumes com qualidade, frescor e confiança. Há quase 14 anos levando o melhor para você.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="public/images/logo/boa-hortifruti-logo.jpeg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="icon" href="public/images/logo/boa-hortifruti-logo.jpeg" type="image/jpeg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ==========================================================================
+     HEADER
+     ========================================================================== -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#inicio" class="brand" aria-label="Boa Hortifruti — início">
+      <span class="brand-logo">
+        <img src="public/images/logo/boa-hortifruti-logo.jpeg" alt="Logomarca Boa Hortifruti">
+      </span>
+      <span class="brand-word">Boa Hortifruti</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#qualidade">Qualidade</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="https://wa.me/5571989470111?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Boa%20Hortifruti%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." class="icon-btn" data-wa-link target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.3.9.9-3.2-.2-.3C4 14.9 3.6 13.5 3.6 12 3.6 7.4 7.4 3.6 12 3.6S20.4 7.4 20.4 12 16.6 20.2 12 20.2z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/boahortfruti/" class="icon-btn" data-instagram-link target="_blank" rel="noopener noreferrer" aria-label="Ver Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação mobile">
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre nós</a></li>
+      <li><a href="#produtos">Produtos</a></li>
+      <li><a href="#qualidade">Qualidade</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="mobile-nav-actions">
+      <a href="https://wa.me/5571989470111?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Boa%20Hortifruti%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." class="btn btn-whatsapp btn-block" data-wa-link target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+      <a href="https://www.instagram.com/boahortfruti/" class="btn btn-outline btn-block" data-instagram-link target="_blank" rel="noopener noreferrer">Ver Instagram</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ==========================================================================
+     HERO
+     A arte abaixo é o asset visual oficial (16:9), usada tal como fornecida,
+     sem recriação por HTML/CSS. Dois links invisíveis ficam posicionados
+     sobre os botões já desenhados na arte ("Fale conosco" e "Conheça
+     nossos produtos") apenas para que continuem clicáveis de verdade.
+     ========================================================================== -->
+<section class="hero" id="inicio">
+  <div class="hero-image-frame">
+    <picture>
+      <source
+        media="(max-width: 767px)"
+        srcset="public/images/hero/hero-mobile.png"
+      >
+      <img
+        src="public/images/hero/hero-desktop.png"
+        alt="Boa Hortifruti — frutas, verduras e legumes selecionados em uma cesta em formato de coração, com a logomarca Boa Hortifruti ao centro. Frescor que dá gosto! Há 13 anos levando qualidade e frescor."
+        class="hero-art"
+        width="1672"
+        height="776"
+      >
+    </picture>
+    <a href="https://wa.me/5571989470111?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Boa%20Hortifruti%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." class="hero-hotspot hero-hotspot-whats" data-wa-link target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp"></a>
+    <a href="#produtos" class="hero-hotspot hero-hotspot-produtos" aria-label="Conheça nossos produtos"></a>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     FAIXA DE DIFERENCIAIS
+     ========================================================================== -->
+<section class="strip">
+  <div class="container strip-grid reveal-stagger">
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+      <div><strong>14 anos</strong><span>de experiência</span></div>
+    </div>
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2z"/></svg>
+      <div><strong>Qualidade</strong><span>em cada produto</span></div>
+    </div>
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3c3 2 5 5 5 8a5 5 0 0 1-10 0c0-3 2-6 5-8z"/></svg>
+      <div><strong>Frutas, verduras</strong><span>e legumes</span></div>
+    </div>
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2c3 5 7 9.5 7 13a7 7 0 0 1-14 0c0-3.5 4-8 7-13z"/></svg>
+      <div><strong>Frescor</strong><span>que dá gosto</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     SOBRE NÓS
+     ========================================================================== -->
+<section class="about" id="sobre">
+  <div class="container about-inner">
+    <div class="reveal">
+      <span class="about-eyebrow">Sobre a Boa Hortifruti</span>
+      <h2>Qualidade é o nosso sobrenome.</h2>
+      <p class="lead">A Boa Hortifruti representa crescimento, experiência, qualidade e evolução. Há quase 14 anos no mercado, trabalhamos com frutas, verduras, legumes, hortaliças e ervas, sempre com foco em qualidade, frescor e confiança.</p>
+      <p class="lead">Tudo começou com um peão comum que recebeu a oportunidade de entrar no ramo de hortifruti e se dedicou de verdade ao negócio — e foi a partir dessa oportunidade que a empresa foi crescendo e construindo a trajetória que tem hoje.</p>
+      <p class="lead">Qualidade, confiança, compromisso, bom atendimento, preço justo e cuidado com cada produto guiam o nosso trabalho todos os dias.</p>
+      <div class="about-stats">
+        <div><strong>14</strong><span>anos de mercado</span></div>
+        <div><strong>4</strong><span>categorias de produtos</span></div>
+      </div>
+      <a href="#produtos" class="btn btn-lime">Ver produtos</a>
+    </div>
+    <div class="photo-placeholder reveal">
+      <div>
+        <strong>Espaço reservado para fotografia real</strong>
+        [Adicionar foto da equipe, loja ou produtos da Boa Hortifruti]
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     CATEGORIAS
+     ========================================================================== -->
+<section class="categories" id="categorias">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Encontre o que você procura</h2>
+      <p>Navegue pelas nossas categorias e converse com a gente sobre o que você precisa.</p>
+    </div>
+    <div class="cat-grid reveal-stagger">
+      <a href="#produtos" class="cat-card">
+        <div class="cat-photo"><img src="public/images/categorias/frutas-capa.jpg" alt="Frutas selecionadas da Boa Hortifruti" loading="lazy"></div>
+        <div class="cat-bar">
+          <div class="cat-bar-left">
+            <span class="cat-icon-badge">🍊</span>
+            <strong>Frutas</strong>
+          </div>
+          <span class="cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+      <a href="#produtos" class="cat-card">
+        <div class="cat-photo"><img src="public/images/categorias/verduras-capa.jpg" alt="Verduras e folhas selecionadas da Boa Hortifruti" loading="lazy"></div>
+        <div class="cat-bar">
+          <div class="cat-bar-left">
+            <span class="cat-icon-badge">🥬</span>
+            <strong>Verduras e Folhas</strong>
+          </div>
+          <span class="cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+      <a href="#produtos" class="cat-card">
+        <div class="cat-photo"><img src="public/images/categorias/legumes-capa.jpg" alt="Legumes e hortaliças selecionados da Boa Hortifruti" loading="lazy"></div>
+        <div class="cat-bar">
+          <div class="cat-bar-left">
+            <span class="cat-icon-badge">🥦</span>
+            <strong>Legumes e Hortaliças</strong>
+          </div>
+          <span class="cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+      <a href="#produtos" class="cat-card">
+        <div class="cat-photo"><img src="public/images/categorias/ervas-capa.jpg" alt="Ervas, temperos e outros produtos da Boa Hortifruti" loading="lazy"></div>
+        <div class="cat-bar">
+          <div class="cat-bar-left">
+            <span class="cat-icon-badge">🌿</span>
+            <strong>Ervas, Temperos e Outros</strong>
+          </div>
+          <span class="cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BANNER
+     ========================================================================== -->
+<section class="banner">
+  <div class="container">
+    <div class="banner-inner reveal">
+      <div class="banner-text">
+        <h3>Frescor que dá gosto</h3>
+        <p>Qualidade em frutas, verduras e legumes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     NOSSOS PRODUTOS — 4 carrosséis independentes (Frutas, Legumes e
+     Hortaliças, Verduras e Folhas, Ervas/Temperos e Outros).
+     Conteúdo preenchido via JavaScript a partir de PRODUCT_GROUPS em js/script.js
+     ========================================================================== -->
+<section class="our-products" id="produtos">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Nossos produtos</h2>
+      <p>Qualidade, variedade e frescor para atender às necessidades dos nossos clientes.</p>
+    </div>
+
+    <div class="product-group reveal" data-group="frutas">
+      <div class="product-group-head">
+        <span class="product-group-icon">🍊</span>
+        <h3>Frutas</h3>
+      </div>
+      <div class="carousel" data-carousel>
+        <button class="carousel-arrow prev" data-carousel-prev aria-label="Ver frutas anteriores">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <div class="carousel-viewport" id="carousel-frutas" data-carousel-viewport tabindex="0" role="region" aria-label="Carrossel de frutas"></div>
+        <button class="carousel-arrow next" data-carousel-next aria-label="Ver mais frutas">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="carousel-dots" data-carousel-dots></div>
+    </div>
+
+    <div class="product-group reveal" data-group="legumes">
+      <div class="product-group-head">
+        <span class="product-group-icon">🥦</span>
+        <h3>Legumes e Hortaliças</h3>
+      </div>
+      <div class="carousel" data-carousel>
+        <button class="carousel-arrow prev" data-carousel-prev aria-label="Ver legumes e hortaliças anteriores">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <div class="carousel-viewport" id="carousel-legumes" data-carousel-viewport tabindex="0" role="region" aria-label="Carrossel de legumes e hortaliças"></div>
+        <button class="carousel-arrow next" data-carousel-next aria-label="Ver mais legumes e hortaliças">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="carousel-dots" data-carousel-dots></div>
+    </div>
+
+    <div class="product-group reveal" data-group="verduras">
+      <div class="product-group-head">
+        <span class="product-group-icon">🥬</span>
+        <h3>Verduras e Folhas</h3>
+      </div>
+      <div class="carousel" data-carousel>
+        <button class="carousel-arrow prev" data-carousel-prev aria-label="Ver verduras e folhas anteriores">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <div class="carousel-viewport" id="carousel-verduras" data-carousel-viewport tabindex="0" role="region" aria-label="Carrossel de verduras e folhas"></div>
+        <button class="carousel-arrow next" data-carousel-next aria-label="Ver mais verduras e folhas">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="carousel-dots" data-carousel-dots></div>
+    </div>
+
+    <div class="product-group reveal" data-group="ervas">
+      <div class="product-group-head">
+        <span class="product-group-icon">🌿</span>
+        <h3>Ervas, Temperos e Outros</h3>
+      </div>
+      <div class="carousel" data-carousel>
+        <button class="carousel-arrow prev" data-carousel-prev aria-label="Ver ervas e temperos anteriores">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <div class="carousel-viewport" id="carousel-ervas" data-carousel-viewport tabindex="0" role="region" aria-label="Carrossel de ervas, temperos e outros"></div>
+        <button class="carousel-arrow next" data-carousel-next aria-label="Ver mais ervas e temperos">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="carousel-dots" data-carousel-dots></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     QUALIDADE
+     ========================================================================== -->
+<section class="quality" id="qualidade">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Do cuidado à sua mesa.</h2>
+      <p>Cada etapa pensada para garantir o melhor produto até você.</p>
+    </div>
+    <div class="quality-grid reveal-stagger">
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        <h3>Experiência</h3>
+        <p>Quase 14 anos de mercado cuidando de quem confia na gente.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7l8-4 8 4-8 4-8-4z"/><path d="M4 12l8 4 8-4"/><path d="M4 17l8 4 8-4"/></svg>
+        <h3>Variedade</h3>
+        <p>Frutas, verduras, legumes, hortaliças e ervas em um só lugar.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>
+        <h3>Qualidade</h3>
+        <p>É o nosso sobrenome — em cada produto que oferecemos.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg>
+        <h3>Eficiência</h3>
+        <p>Atendimento ágil, do pedido à entrega.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
+        <h3>Reposição frequente</h3>
+        <p>Produtos renovados com frequência, sempre fresquinhos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     COMO FUNCIONA — atacado/varejo, público atendido, região, entrega/retirada
+     e pedidos. Reaproveita o mesmo estilo visual da seção Qualidade.
+     ========================================================================== -->
+<section class="quality" id="como-funciona">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Como funciona</h2>
+      <p>Atacado e varejo, entrega e retirada — feito sob medida para cada cliente.</p>
+    </div>
+    <div class="quality-grid reveal-stagger">
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h18M3 7v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V7M3 7l2-4h14l2 4"/><path d="M9 12h6"/></svg>
+        <h3>Atacado e varejo</h3>
+        <p>Atendemos principalmente o atacado, para compras em maior volume, e também o varejo, com pedidos menores conforme a necessidade de cada cliente.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 21V10l9-6 9 6v11"/><path d="M9 21v-6h6v6"/></svg>
+        <h3>Quem atendemos</h3>
+        <p>Mercados, hotéis, restaurantes, feirantes e outras empresas que trabalham com produtos hortifrutigranjeiros.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        <h3>Onde atendemos</h3>
+        <p>Salvador, Região Metropolitana, Feira de Santana, Camaçari, Guarajuba e outras localidades.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="1" y="7" width="14" height="10" rx="1"/><path d="M15 10h3l3 3v4h-6z"/><circle cx="6" cy="19" r="1.6"/><circle cx="17.5" cy="19" r="1.6"/></svg>
+        <h3>Entrega e retirada</h3>
+        <p>Normalmente levamos os produtos até você, mas também é possível retirar o pedido diretamente no local.</p>
+      </div>
+      <div class="quality-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.3.9.9-3.2-.2-.3C4 14.9 3.6 13.5 3.6 12 3.6 7.4 7.4 3.6 12 3.6S20.4 7.4 20.4 12 16.6 20.2 12 20.2z"/></svg>
+        <h3>Como pedir</h3>
+        <p>Pedidos feitos principalmente pelo WhatsApp, podendo também ser enviados por e-mail.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     GALERIA
+     ========================================================================== -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Nosso dia a dia</h2>
+      <p>Um pouco da rotina, dos produtos e da equipe da Boa Hortifruti.</p>
+    </div>
+    <div class="gallery-grid reveal-stagger">
+      <div class="gallery-item tall"><img src="public/images/galeria/equipe-evento.jpg" alt="Equipe da Boa Hortifruti em ação de divulgação da marca" loading="lazy"></div>
+      <div class="gallery-item short"><img src="public/images/galeria/equipe-loja.jpg" alt="Equipe da Boa Hortifruti organizando frutas e verduras" loading="lazy"></div>
+      <div class="gallery-item tall"><img src="public/images/galeria/melancias-colheita.jpg" alt="Melancias colhidas, prontas para distribuição" loading="lazy"></div>
+      <div class="gallery-item short"><img src="public/images/galeria/cenouras.jpg" alt="Cenouras frescas selecionadas" loading="lazy"></div>
+      <div class="gallery-item short"><img src="public/images/galeria/abacates.jpg" alt="Abacates selecionados em caixas" loading="lazy"></div>
+      <div class="gallery-item short"><img src="public/images/galeria/pimentao-vermelho.jpg" alt="Pimentões vermelhos selecionados" loading="lazy"></div>
+      <div class="gallery-item tall"><img src="public/images/galeria/mangas.jpg" alt="Mangas selecionadas em caixas" loading="lazy"></div>
+      <div class="gallery-item short"><img src="public/images/galeria/pimentao-amarelo.jpg" alt="Pimentões amarelos selecionados" loading="lazy"></div>
+      <div class="gallery-item short"><img src="public/images/galeria/couve-flor.jpg" alt="Couve-flor fresca embalada" loading="lazy"></div>
+      <div class="gallery-item short"><img src="public/images/galeria/melao.jpg" alt="Melões amarelos selecionados" loading="lazy"></div>
+      <div class="gallery-item tall"><img src="public/images/galeria/melancia-fatias.jpg" alt="Fatias de melancia fresca" loading="lazy"></div>
+    </div>
+    <div class="gallery-cta reveal">
+      <a href="https://www.instagram.com/boahortfruti/" class="btn btn-outline" data-instagram-link target="_blank" rel="noopener noreferrer">Ver mais no Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     CTA WHATSAPP
+     ========================================================================== -->
+<section class="cta-section">
+  <div class="cta-whats reveal">
+    <h2>Quer levar mais frescor para sua mesa?</h2>
+    <p>Fale com a gente e conheça os produtos selecionados da Boa Hortifruti.</p>
+    <a href="https://wa.me/5571989470111?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Boa%20Hortifruti%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." class="btn btn-lime" data-wa-link target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.3.9.9-3.2-.2-.3C4 14.9 3.6 13.5 3.6 12 3.6 7.4 7.4 3.6 12 3.6S20.4 7.4 20.4 12 16.6 20.2 12 20.2z"/></svg>
+      Fale conosco
+    </a>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     INSTAGRAM
+     ========================================================================== -->
+<section class="instagram">
+  <div class="container">
+    <div class="section-head center reveal">
+      <h2>Mais frescor no nosso Instagram</h2>
+      <p>Acompanhe novidades, produtos e o dia a dia da Boa Hortifruti.</p>
+      <span class="insta-handle">@boahortfruti</span>
+    </div>
+    <div class="insta-grid reveal-stagger">
+      <a class="insta-tile" href="https://www.instagram.com/boahortfruti/" data-instagram-link target="_blank" rel="noopener noreferrer" aria-label="Ver publicação no Instagram @boahortfruti: o proprietário com uma caixa de frutas e legumes">
+        <img src="public/images/instagram/dono-boa-hortifruti.jpg" alt="Ilustração do proprietário da Boa Hortifruti segurando uma caixa de legumes frescos, com o caminhão da marca ao fundo" width="420" height="570" loading="lazy">
+        <span class="insta-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></span>
+      </a>
+      <a class="insta-tile" href="https://www.instagram.com/boahortfruti/" data-instagram-link target="_blank" rel="noopener noreferrer" aria-label="Ver publicação no Instagram @boahortfruti: melancias frescas na loja">
+        <img src="public/images/instagram/melancias-loja.jpg" alt="Melancias inteiras e em fatias expostas na loja da Boa Hortifruti" width="450" height="572" loading="lazy">
+        <span class="insta-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></span>
+      </a>
+      <a class="insta-tile" href="https://www.instagram.com/boahortfruti/" data-instagram-link target="_blank" rel="noopener noreferrer" aria-label="Ver publicação no Instagram @boahortfruti: brócolis e couve-flor embalados">
+        <img src="public/images/instagram/brocolis-couve-flor-embalados.jpg" alt="Brócolis e couve-flor embalados e etiquetados, prontos para venda" width="594" height="444" loading="lazy">
+        <span class="insta-tile-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></span>
+      </a>
+    </div>
+    <a href="https://www.instagram.com/boahortfruti/" class="btn btn-lime" data-instagram-link target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      Seguir no Instagram
+    </a>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     LOCALIZAÇÃO
+     ========================================================================== -->
+<section class="location" id="contato">
+  <div class="container location-inner">
+    <div class="location-info reveal">
+      <div class="location-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        <div><strong>Endereço</strong><span>CEASA — Jardim das Margaridas, Salvador/BA</span></div>
+      </div>
+      <div class="location-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        <div><strong>Horário de funcionamento</strong><span>Das 03h às 15h</span></div>
+      </div>
+      <div class="location-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.3.9.9-3.2-.2-.3C4 14.9 3.6 13.5 3.6 12 3.6 7.4 7.4 3.6 12 3.6S20.4 7.4 20.4 12 16.6 20.2 12 20.2z"/></svg>
+        <div><strong>WhatsApp</strong><span>(71) 98947-0111</span></div>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&query=CEASA+Jardim+das+Margaridas+Salvador+BA" class="btn btn-lime" target="_blank" rel="noopener noreferrer" aria-label="Como chegar à Boa Hortifruti no Google Maps">Como chegar</a>
+    </div>
+    <div class="map-embed reveal">
+      <iframe
+        src="https://www.google.com/maps?q=CEASA+Jardim+das+Margaridas,+Salvador+-+BA&output=embed"
+        title="Localização da Boa Hortifruti — CEASA, Jardim das Margaridas, Salvador - BA"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ==========================================================================
+     FOOTER
+     ========================================================================== -->
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div>
+      <div class="footer-brand">
+        <span class="brand-logo">
+          <img src="public/images/logo/boa-hortifruti-logo.jpeg" alt="Logomarca Boa Hortifruti">
+        </span>
+        <strong>Boa Hortifruti</strong>
+      </div>
+      <p class="footer-tagline">Frescor que dá gosto!</p>
+      <div class="footer-social" style="margin-top:20px;">
+        <a href="https://www.instagram.com/boahortfruti/" data-instagram-link target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+        <a href="https://wa.me/5571989470111?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Boa%20Hortifruti%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." data-wa-link target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.3.9.9-3.2-.2-.3C4 14.9 3.6 13.5 3.6 12 3.6 7.4 7.4 3.6 12 3.6S20.4 7.4 20.4 12 16.6 20.2 12 20.2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <strong>Navegação</strong>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#qualidade">Qualidade</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <strong>Contato</strong>
+      <ul>
+        <li><a href="https://wa.me/5571989470111?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Boa%20Hortifruti%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." data-wa-link target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/boahortfruti/" data-instagram-link target="_blank" rel="noopener noreferrer">@boahortfruti</a></li>
+        <li><span>CEASA — Jardim das Margaridas, Salvador/BA</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="footer-year">2026</span> Boa Hortifruti. Todos os direitos reservados.</span>
+  </div>
+</footer>
+
+<div class="float-actions">
+  <a href="https://www.instagram.com/boahortfruti/" class="float-btn instagram-float" data-instagram-link target="_blank" rel="noopener noreferrer" aria-label="Seguir @boahortfruti no Instagram">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+  </a>
+  <a href="https://wa.me/5571989470111?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Boa%20Hortifruti%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos." class="float-btn whatsapp-float" data-wa-link target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.3.9.9-3.2-.2-.3C4 14.9 3.6 13.5 3.6 12 3.6 7.4 7.4 3.6 12 3.6S20.4 7.4 20.4 12 16.6 20.2 12 20.2z"/></svg>
+</a>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
